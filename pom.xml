@@ -111,9 +111,10 @@
             </plugin>
         </plugins>
     </build>
+
     <profiles>
         <profile>
-            <id>CucumberRunner</id>
+            <id>CukesRunner</id>
             <build>
                 <plugins>
                     <plugin>
@@ -123,9 +124,10 @@
                         <configuration>
                             <parallel>methods</parallel>
                             <perCoreThreadCount>false</perCoreThreadCount>
-                            <threadCountMethods>10</threadCountMethods>
+                            <threadCountMethods>3</threadCountMethods>
                             <includes>
-                                <include>**/CucumberRunner.java</include>
+                                <include>**/CukesRunner.java</include>
+<!--                                <include>**/FailedRunner.java</include>-->
                             </includes>
                             <testFailureIgnore>false</testFailureIgnore>
                         </configuration>

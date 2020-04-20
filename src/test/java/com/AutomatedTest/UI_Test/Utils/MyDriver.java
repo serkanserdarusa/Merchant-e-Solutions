@@ -17,7 +17,7 @@ import java.net.URL;
 
 public class MyDriver {
     private static ThreadLocal<WebDriver> DriverPool = new ThreadLocal<>();
-    private MyDriver() {//for singleton design pattern constructor should be privete in MyDriver
+    private MyDriver() {//for singleton design pattern constructor should be private in MyDriver
     }
     public static WebDriver get() {
         //if this thread doesn't have a web Driver yet - create it and add to pool

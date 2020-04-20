@@ -10,13 +10,13 @@ import org.junit.runner.RunWith;
             features = "src/test/resources/feature",
             glue = "com/AutomatedTest/UI_Test/Step_definition",
             dryRun =false,
-            // tags = "@smoke_test,@unit_test",
+            //tags = "@Create_test",
             plugin = {"html:target/default-cucumber-reports",
                     "json:target/cucumber.json",
                     "rerun:target/rerun.txt"
             }
     )
-    public class Runner {
+    public class CukesRunner {
 
     }
 

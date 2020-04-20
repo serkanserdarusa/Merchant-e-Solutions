@@ -8,7 +8,7 @@ public class info {
         private int id=1;
         private String name="serdar serkan";
         private String email="serdar4661@gmail.com";
-        private String body="API is fun";
+        private String body="Application Programin interface is fun";
 
         public info(){
 

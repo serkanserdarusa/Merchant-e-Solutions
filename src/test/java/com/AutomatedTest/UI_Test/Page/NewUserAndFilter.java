@@ -26,7 +26,7 @@ public class NewUserAndFilter extends BasePage {
 
     @FindBy(xpath = "//input[@name='commit']")
     public WebElement clickCreateUser;
-    ///////////////////////////////////////////////
+
     @FindBy(xpath = "//div[@id='q_username_input']//select")
     public WebElement selectUsername;
 
