@@ -61,10 +61,10 @@ public class Get_Comments {
                 when().
                 get(baseURI + "/comments").thenReturn().jsonPath();
 
-        Map<String, ?> sss = json.get("[3]");
+        Map<String, ?> sss = json.get("[3]");//to get 3 index
         System.out.println(sss);
         System.out.println("============");
-        String sss1 = json.get("[3].name");
+        String sss1 = json.get("[3].name");//to get name in the 3 index
         System.out.println(sss1);
 
     }
@@ -119,7 +119,7 @@ public class Get_Comments {
 
         Headers header = response.getHeaders();
         System.out.println(response.getHeaders());
-
+        System.out.println("=======================");
         for (Header h : header) {
             System.out.println(h);
         }

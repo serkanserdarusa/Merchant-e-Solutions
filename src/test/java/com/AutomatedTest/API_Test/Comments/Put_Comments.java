@@ -29,7 +29,7 @@ public class Put_Comments {
                 .contentType(ContentType.JSON)
         .when()
                 .body(file)
-                .put("/comments/9").
+                .put("/comments/10").
         then().
                 assertThat().statusCode(200).log().all(true);
     }
@@ -40,7 +40,7 @@ public class Put_Comments {
 
         HashMap<String, Object> map = new HashMap<>();
         map.put("postId", 2);
-        map.put("id", 334);
+        map.put("id", 5);
         map.put("name", "serkan serkan");
         map.put("email", "sam61@gmail.com");
         map.put("body", "JAVA_SELENIUM_API_SQL");
@@ -51,7 +51,7 @@ public class Put_Comments {
 
         when()
                 .body(map)
-                .put("/comments/3").
+                .put("/comments/7").
          then().
                 assertThat().statusCode(200).log().all(true);
 

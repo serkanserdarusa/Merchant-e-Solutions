@@ -125,10 +125,10 @@ public class Get_Users {
                 when().
                 get("/users").thenReturn().jsonPath();
 
-        System.out.println(count.getString("address[0].Street"));
+        System.out.println(count.getString("address[0].Street"));//return as a string
         System.out.println(count.getString("address[0].City"));
         System.out.println(count.getString("address[0].Phone"));
-        System.out.println(count.getString("address[4].zipcode"));
+        System.out.println(count.getString("address[0].Zip"));
 
     }
 
@@ -152,12 +152,13 @@ public class Get_Users {
     public void test9() {
         given().
                 contentType(ContentType.JSON).
-                queryParam("users", "{\"Phone\":\"404-000-0000\"}").
+                queryParam("users", "{\"Phone\":\"123-123-1234\"}").
         when().
                 get("/users").
         then().
-                assertThat().statusCode(200).contentType(ContentType.JSON).
-                body("address[0].Phone", is("404-000-0000"));
+
+                 body("address[0].Phone", is("123-123-1234"))
+                .assertThat().statusCode(200).contentType(ContentType.JSON);
 
 
     }

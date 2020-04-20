@@ -144,8 +144,9 @@ public class Get_Posts {
         Map<String, ?> sss = json.get("[4]");
         System.out.println(sss);
 
-        for (Map.Entry<String, ?> s : sss.entrySet()) {
+        for (Map.Entry<String, ?> s : sss.entrySet()) {//get specific key and value
             System.out.println(s);
+            System.out.println("===================");
             System.out.println("key: " + s.getKey() + " value: " + s.getValue());
         }
 
