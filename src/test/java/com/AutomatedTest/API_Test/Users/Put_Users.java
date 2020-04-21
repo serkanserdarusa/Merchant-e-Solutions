@@ -22,7 +22,7 @@ public class Put_Users {
 
         baseURI = ConfigurationReader.getProperty("urlAPI");
     }
-
+ //serkan serdar
     @Test
     @DisplayName("update info")
     public void test1 () {
