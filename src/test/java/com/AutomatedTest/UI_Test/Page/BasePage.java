@@ -5,7 +5,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-//locale
 public class BasePage {
     public BasePage(){//it should be otherwise @FindBy cannot work
 
