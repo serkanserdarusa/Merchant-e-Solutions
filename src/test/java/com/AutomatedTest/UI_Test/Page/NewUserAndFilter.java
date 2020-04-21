@@ -181,5 +181,6 @@ public class NewUserAndFilter extends BasePage {
             }
 
         }
+
     }
 }

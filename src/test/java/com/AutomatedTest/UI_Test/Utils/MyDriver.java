@@ -68,7 +68,7 @@ public class MyDriver {
                     try {
                         ChromeOptions chromeOptions = new ChromeOptions();
                         chromeOptions.setCapability("platform", Platform.ANY);
-                        DriverPool.set(new RemoteWebDriver(new URL("enter remote url here"), chromeOptions));
+                        DriverPool.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions));
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
