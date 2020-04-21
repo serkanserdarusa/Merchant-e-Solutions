@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.AutomatedTest.UI_Test.Runner.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.AutomatedTest.UI_Test.Runner.CukesRunner
+initializationError(com.AutomatedTest.UI_Test.Runner.CukesRunner)  Time elapsed: 0.003 s  <<< ERROR!
+cucumber.runtime.CucumberException: Unknown option: --tags@Create_test
+

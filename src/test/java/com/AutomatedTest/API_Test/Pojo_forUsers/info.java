@@ -3,7 +3,7 @@ package com.AutomatedTest.API_Test.Pojo_forUsers;
 import com.google.gson.annotations.SerializedName;
 
 public class info {
-        @SerializedName("postid")
+        @SerializedName("postId")//if the instance variable is different from json key name
         private int postId=2;
         private int id=1;
         private String name="serdar serkan";

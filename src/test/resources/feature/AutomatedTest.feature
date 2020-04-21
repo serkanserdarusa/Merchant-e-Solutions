@@ -33,7 +33,7 @@ Feature: Create a new user
 
     Examples: Email and text
       | email       | text1                     |
-      | Contains    | serdarusa                 |
+      | ssssssss    | serdarusa                 |
       | Equals      | serkanserdarusa@gmail.com |
       | Starts with | serkan                    |
       | Ends with   | darusa@gmail.com          |
