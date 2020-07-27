@@ -130,7 +130,6 @@ public class NewUserAndFilter extends BasePage {
                     System.out.println("invalid info");
             }
 
-
         }else{
             selectEmail.click();
 
