@@ -5,6 +5,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
+<<<<<<< HEAD
+//serkan serdar
+=======
+>>>>>>> d9f95527a7fca78f059dafd68e43c5c65dc45181
 
 public class BasePage {
     public BasePage(){//it should be otherwise @FindBy cannot work
