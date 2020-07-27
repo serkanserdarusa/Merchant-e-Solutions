@@ -29,7 +29,7 @@ public class Put_Comments {
                 .contentType(ContentType.JSON)
         .when()
                 .body(file)
-                .put("/comments/10").
+                .put("/comments/11").
         then().
                 assertThat().statusCode(200).log().all(true);
     }

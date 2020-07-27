@@ -45,7 +45,7 @@ public class Post_Comments {
 
         HashMap<String, Object> map = new HashMap<>();
         map.put("userId",4);
-        map.put("id",1111);
+        map.put("id",1119);
         map.put("title", "serkanserdar4661");
         map.put("Selenium and API is Fun", false);
 
@@ -69,7 +69,7 @@ public class Post_Comments {
 
         String create="{\n" +
                 "\"postId\": 5,\n" +
-                "\"id\": \"557\",\n" +
+                "\"id\": \"559\",\n" +
                 "\"name\": \"serkan&serdar\",\n" +
                 "\"email\": \"serkan615534@gmail.com\",\n" +
                 "\"body\": \"Create new info \"\n" +

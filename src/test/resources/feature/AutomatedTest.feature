@@ -1,5 +1,5 @@
 @Create_test
-//serkan
+
 Feature: Create a new user
 
   Background:
