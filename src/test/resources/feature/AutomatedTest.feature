@@ -2,7 +2,7 @@
 
 Feature: Create a new user
 
-//lambda action local
+//lambda action
 
   Background:
     Given User is on the landing page
