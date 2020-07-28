@@ -1,7 +1,9 @@
 @Create_test
 
 Feature: Create a new user
+
 //lambda action
+
   Background:
     Given User is on the landing page
     Then user click the Users button
