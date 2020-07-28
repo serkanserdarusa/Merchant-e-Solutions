@@ -1,7 +1,7 @@
 @Create_test
 
 Feature: Create a new user
-
+//serdar
   Background:
     Given User is on the landing page
     Then user click the Users button
@@ -12,7 +12,6 @@ Feature: Create a new user
     Then user enter "Username" as "serkanserdar61"
     Then user enter "Password" as "ser615534"
     Then user enter "Email" as "serkanserdarusa@gmail.com"
-
     Then user click "Create User" button
 
 
