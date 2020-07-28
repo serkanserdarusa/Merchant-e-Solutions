@@ -1,7 +1,7 @@
 @Create_test
 
 Feature: Create a new user
-
+//lamda
   Background:
     Given User is on the landing page
     Then user click the Users button
