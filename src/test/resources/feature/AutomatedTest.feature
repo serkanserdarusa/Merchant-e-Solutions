@@ -2,8 +2,6 @@
 
 Feature: Create a new user
 
-//serkan serkan
-
   Background:
     Given User is on the landing page
     Then user click the Users button
